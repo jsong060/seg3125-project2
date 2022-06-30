@@ -8,6 +8,7 @@ import Builds from './components/Builds';
 import Community from './components/Community';
 import Help from './components/Help';
 import ContactUs from './components/ContactUs';
+import Login from './components/Login';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/Community' element={<Community /> } />
           <Route path='/ContactUs' element={<ContactUs /> } />
           <Route path='/Help' element={<Help /> } />
+          <Route path='/Login' element={<Login /> } />
         </Routes>
       </Router>
   );
