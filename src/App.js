@@ -40,8 +40,9 @@ import ExampleKeyboard from './components/examples/ExampleKeyboard';
 function App() {
   return (
     <div className='bg'>
-      <NavMenu />
+      
       <Router>
+        <NavMenu />
         <Routes>
           <Route path='/' element={<Home /> } />
           <Route path='/StartBuild' element={<StartBuild /> } />

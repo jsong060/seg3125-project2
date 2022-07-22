@@ -1,5 +1,5 @@
 import React , { useEffect, useState , useNavigate}from 'react'
-import { BrowserRouter as Router, Route, Link,  } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link  } from 'react-router-dom';
 import { Container , Nav, Navbar, Button, NavDropdown, Form} from 'react-bootstrap';
 
 function NavMenu() {
@@ -101,7 +101,7 @@ function NavMenu() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Item>
-                <Nav.Link href="/StartBuild" >Start New Build</Nav.Link>
+                <Nav.Link href="/StartBuild">Start New Build</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="/Builds">Browse finished Builds</Nav.Link>
