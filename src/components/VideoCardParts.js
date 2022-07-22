@@ -30,7 +30,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 1</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>
@@ -46,7 +46,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 2</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>
@@ -61,7 +61,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 3</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>
@@ -76,7 +76,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 4</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>
@@ -94,7 +94,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 5</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>
@@ -110,7 +110,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 6</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>
@@ -125,7 +125,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 7</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>
@@ -140,7 +140,7 @@ function VideoCardParts(){
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
                                 <Card.Title><a href='ExampleVideoCard'>Videocard 8</a></Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
                                 </Card.Text>

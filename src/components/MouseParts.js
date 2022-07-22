@@ -28,7 +28,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 1</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -42,7 +42,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 2</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -56,7 +56,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 3</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -70,7 +70,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 4</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -86,7 +86,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 5</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -100,7 +100,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 6</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -114,7 +114,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 7</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -128,7 +128,7 @@ function MouseParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExampleMouse'>Mouse 8</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/mouse.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>

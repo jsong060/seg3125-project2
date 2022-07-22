@@ -27,8 +27,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 1</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 1</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -41,8 +41,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 2</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 2</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -55,8 +55,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 3</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 3</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -69,8 +69,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 4</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 4</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -85,8 +85,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 5</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 5</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -99,8 +99,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 6</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 6</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -113,8 +113,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 7</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 7</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -127,8 +127,8 @@ function MemoryParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleMemory'>Memory 8</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleMemory'>Memory 8</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/ram.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>

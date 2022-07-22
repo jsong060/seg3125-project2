@@ -10,7 +10,7 @@ function Community() {
       <Row>
         <Col sm={2}>
           <ListGroup>
-            <ListGroup.Item action href="#link1" className="d-flex justify-content-between align-items-start">
+            <ListGroup.Item action href="/////#link1" className="d-flex justify-content-between align-items-start">
             <div className="ms-2 me-auto">
               <div className="fw-bold">Video Tutorials</div>
             </div>

@@ -27,8 +27,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 1</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 1</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/case.jpg')}  className='photo'  />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -41,8 +41,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 2</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 2</a></Card.Title>
+                            <Card.Img variant="top"src={require('./examples/case.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -55,8 +55,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 3</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 3</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/case.jpg')}  className='photo'/>
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -69,8 +69,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 4</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 4</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/case.jpg')}  className='photo'/>
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -85,8 +85,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 5</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 5</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/case.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -99,8 +99,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 6</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 6</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/case.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -113,8 +113,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 7</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 7</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/case.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -127,8 +127,8 @@ function CompCaseParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleCase'>Case 8</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleCase'>Case 8</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/case.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>

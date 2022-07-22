@@ -27,8 +27,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 1</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 1</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -41,8 +41,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 2</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 2</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -55,8 +55,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 3</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 3</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -69,8 +69,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 4</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 4</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -85,8 +85,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 5</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 5</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -99,8 +99,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 6</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 6</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -113,8 +113,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 7</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 7</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -127,8 +127,8 @@ function KeyboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExampleKeyboard'>Keyboard 8</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Title><a href='/ExampleKeyboard'>Keyboard 8</a></Card.Title>
+                            <Card.Img variant="top" src={require('./examples/kb.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>

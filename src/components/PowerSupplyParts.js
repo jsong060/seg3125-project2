@@ -28,7 +28,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 1</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -43,7 +43,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 2</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -58,7 +58,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 3</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -73,7 +73,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 4</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -90,7 +90,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 5</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -105,7 +105,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 6</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -120,7 +120,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 7</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
@@ -135,7 +135,7 @@ function PowerSupplyParts(){
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title><a href='ExamplePSU'>PowerSupply 8</a></Card.Title>
-                            <Card.Img variant="top" src="some Image" />
+                            <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
                             </Card.Text>
