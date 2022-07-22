@@ -96,15 +96,15 @@ function NavMenu() {
     <div>
       <Navbar collapseOnSelect className="justify-content-center" bg="black" variant="dark">
         <Container fluid className="mx-3">
-          <Navbar.Brand href="//">PC Builder</Navbar.Brand>
+          <Navbar.Brand href="/">PC Builder</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Item>
-                <Nav.Link href="//StartBuild" >Start New Build</Nav.Link>
+                <Nav.Link href="/StartBuild" >Start New Build</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="//Builds">Browse finished Builds</Nav.Link>
+                <Nav.Link href="/Builds">Browse finished Builds</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <NavDropdown title="Browse Components" href="/Parts" id="collasible-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
