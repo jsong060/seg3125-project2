@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, useNavigate } from 'react-router-dom';
 import { Container , Row, Col, Button, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
+
 function Home() {
     const navigate = useNavigate();
     
@@ -15,51 +16,11 @@ function Home() {
     };
 
     return (
+        <>
             <Container fluid>
-                <Row>
-                <Col>
-                    <Link to="/">Home</Link>
-                </Col>
-                <Col>
-                    <div className="d-flex align-items-right jusfy-content-end">
-                        <Button variant="secondary">Sign in/up</Button>
-                    </div>
+                <div>
                     
-                </Col>
-                </Row>
-                <Row className='mt-2 justify-content-md-center border'>
-                    <Col>
-                        <Button variant="secondary" onClick={() => {
-                            navigate("/StartBuild")
-                        }}  > Start Build</Button>
-                    </Col>
-                    <Col>
-                    <Button variant="secondary" onClick={() => {
-                            navigate("/parts")
-                        }}  > Browse Parts</Button>
-                    </Col>
-                    <Col>
-                    <Button variant="secondary" onClick={() => {
-                            navigate("/builds")
-                        }}  > Browse Builds</Button>
-                    </Col>
-                    <Col>
-                    <Button variant="secondary" onClick={() => {
-                            navigate("/Community")
-                        }}  > Community</Button>
-                    </Col>
-                    <Col>
-                    <Button variant="secondary" onClick={() => {
-                            navigate("/ContactUs")
-                        }}  > Contact Us</Button>
-                    </Col>
-                    <Col>
-                    <Button variant="secondary" onClick={() => {
-                            navigate("/Help")
-                        }}  > Help </Button>
-                    </Col>
-                </Row>
-
+                </div>
                 <Row className='mt-5 mx-4'>
                     <Col style={divStyle}>
                         <p style={{fontSize: 30}}> Builds By Community</p>
@@ -70,15 +31,14 @@ function Home() {
                     <Col >
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title>Build title</Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Title> White Knight</Card.Title>
+                                <Card.Img variant="top" src={require('./examples/examplebuild.jpg')}  className='photo' />
                                 <Card.Text>
-                                Some descriptive text about the computer build 
                                 </Card.Text>
                             </Card.Body>
                             <Card.Body>
                                 <Button onClick={() => {
-                                    navigate("/Builds")
+                                    navigate("/ExampleBuild")
                                 }}>Go to build</Button>
                             </Card.Body>
                         </Card>
@@ -87,10 +47,9 @@ function Home() {
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title>Build title</Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Title>Refrigerator V4</Card.Title>
+                                <Card.Img variant="top" src={require('./examples/pcbuild2.png')}   className='photo'/>
                                 <Card.Text>
-                                Some descriptive text about the computer build 
                                 </Card.Text>
                             </Card.Body>
                             <Card.Body>
@@ -103,10 +62,9 @@ function Home() {
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title>Build title</Card.Title>
-                                <Card.Img variant="top" src="some Image" />
+                                <Card.Title>Cuteness overflow</Card.Title>
+                                <Card.Img variant="top" src={require('./examples/pcbuild3.png')}  className='photo'/>
                                 <Card.Text>
-                                Some descriptive text about the computer build 
                                 </Card.Text>
                             </Card.Body>
                             <Card.Body>
@@ -118,6 +76,8 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
+        </>
+           
     )
 }
 
