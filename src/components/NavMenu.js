@@ -28,29 +28,29 @@ function NavMenu() {
       <div>
       <Navbar collapseOnSelect className="justify-content-center" bg="black" variant="dark">
         <Container fluid className="mx-3">
-          <Navbar.Brand href="//">PC Builder</Navbar.Brand>
+          <Navbar.Brand href="/">PC Builder</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Item>
-                <Nav.Link href="//StartBuild">Construire un PC</Nav.Link>
+                <Nav.Link href="/StartBuild">Construire un PC</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="//Builds">Constructions terminée</Nav.Link>
+                <Nav.Link href="/Builds">Constructions terminée</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <NavDropdown title="Parcourir les pièces" href="/Parts" id="collasible-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-                  <NavDropdown.Item href="//CpuParts">CPU</NavDropdown.Item>
-                  <NavDropdown.Item href="//CpuCoolerParts">Refroidisseurs de processeur</NavDropdown.Item>
-                  <NavDropdown.Item href="//MotherboardParts">Cartes mères</NavDropdown.Item>
-                  <NavDropdown.Item href="//MemoryParts">Mémoire</NavDropdown.Item>
-                  <NavDropdown.Item href="//StorageParts">Stockage</NavDropdown.Item>
-                  <NavDropdown.Item href="//VideoCardParts">Carte vidéo</NavDropdown.Item>
-                  <NavDropdown.Item href="//PowerSupplyParts">Alimentations</NavDropdown.Item>
-                  <NavDropdown.Item href="//CompCaseParts">Cas</NavDropdown.Item>
-                  <NavDropdown.Item href="//MonitorParts">Moniteurs</NavDropdown.Item>
-                  <NavDropdown.Item href="//MouseParts">Souris</NavDropdown.Item>
-                  <NavDropdown.Item href="//KeyboardParts">Clavier</NavDropdown.Item>
+                  <NavDropdown.Item href="/CpuParts">CPU</NavDropdown.Item>
+                  <NavDropdown.Item href="/CpuCoolerParts">Refroidisseurs de processeur</NavDropdown.Item>
+                  <NavDropdown.Item href="/MotherboardParts">Cartes mères</NavDropdown.Item>
+                  <NavDropdown.Item href="/MemoryParts">Mémoire</NavDropdown.Item>
+                  <NavDropdown.Item href="/StorageParts">Stockage</NavDropdown.Item>
+                  <NavDropdown.Item href="/VideoCardParts">Carte vidéo</NavDropdown.Item>
+                  <NavDropdown.Item href="/PowerSupplyParts">Alimentations</NavDropdown.Item>
+                  <NavDropdown.Item href="/CompCaseParts">Cas</NavDropdown.Item>
+                  <NavDropdown.Item href="/MonitorParts">Moniteurs</NavDropdown.Item>
+                  <NavDropdown.Item href="/MouseParts">Souris</NavDropdown.Item>
+                  <NavDropdown.Item href="/KeyboardParts">Clavier</NavDropdown.Item>
                 </NavDropdown>
               </Nav.Item>
             </Nav>
