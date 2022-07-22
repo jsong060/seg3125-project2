@@ -1,11 +1,11 @@
-import React , { useEffect, useState , useNavigate}from 'react'
-import { BrowserRouter as Router, Route, Link  } from 'react-router-dom';
+import React , { useEffect, useState}from 'react'
+import { BrowserRouter as Router, Route, Link , useNavigate} from 'react-router-dom';
 import { Container , Nav, Navbar, Button, NavDropdown, Form} from 'react-bootstrap';
 
 function NavMenu() {
 
   let lang = localStorage.getItem('lang')
-  
+  const navigate = useNavigate();
   const [show, setShow] = useState(false);
   const showDropdown = (e)=>{
       setShow(!show);
@@ -101,7 +101,7 @@ function NavMenu() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Item>
-                <Nav.Link href="/StartBuild">Start New Build</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/StartBuild')}}>Start New Build</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="/Builds">Browse finished Builds</Nav.Link>
