@@ -33,24 +33,24 @@ function NavMenu() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Item>
-                <Nav.Link href="/StartBuild">Construire un PC</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/StartBuild')}}>Construire un PC</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/Builds">Constructions terminée</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/Builds')}}>Constructions terminée</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <NavDropdown title="Parcourir les pièces" href="/Parts" id="collasible-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-                  <NavDropdown.Item href="/CpuParts">CPU</NavDropdown.Item>
-                  <NavDropdown.Item href="/CpuCoolerParts">Refroidisseurs de processeur</NavDropdown.Item>
-                  <NavDropdown.Item href="/MotherboardParts">Cartes mères</NavDropdown.Item>
-                  <NavDropdown.Item href="/MemoryParts">Mémoire</NavDropdown.Item>
-                  <NavDropdown.Item href="/StorageParts">Stockage</NavDropdown.Item>
-                  <NavDropdown.Item href="/VideoCardParts">Carte vidéo</NavDropdown.Item>
-                  <NavDropdown.Item href="/PowerSupplyParts">Alimentations</NavDropdown.Item>
-                  <NavDropdown.Item href="/CompCaseParts">Cas</NavDropdown.Item>
-                  <NavDropdown.Item href="/MonitorParts">Moniteurs</NavDropdown.Item>
-                  <NavDropdown.Item href="/MouseParts">Souris</NavDropdown.Item>
-                  <NavDropdown.Item href="/KeyboardParts">Clavier</NavDropdown.Item>
+                <NavDropdown title="Parcourir les pièces" id="collasible-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
+                  <NavDropdown.Item onClick={() => {navigate('/CpuParts')}}>CPU</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/CpuCoolerParts')}}>Refroidisseurs de processeur</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MotherboardParts')}}>Cartes mères</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MemoryParts')}}>Mémoire</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/StorageParts')}}>Stockage</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/VideoCardParts')}}>Carte vidéo</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/PowerSupplyParts')}}>Alimentations</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/CompCaseParts')}}>Cas</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MonitorParts')}}>Moniteurs</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MouseParts')}}>Souris</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/KeyboardParts')}}>Clavier</NavDropdown.Item>
                 </NavDropdown>
               </Nav.Item>
             </Nav>
@@ -69,16 +69,16 @@ function NavMenu() {
             </Nav>
             <Nav>
               <Nav.Item>
-                <Nav.Link href="/Community">Communauté</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/Community')}}>Communauté</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/ContactUs">Nous rejoindre</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/ContactUs')}}>Nous rejoindre</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/AboutUs">Qui sommes-nous</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/AboutUs')}}>Qui sommes-nous</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/Login">Se connecter/S'inscrire</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/Login')}}>Se connecter/S'inscrire</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link><p onClick={changeLang}>English/Francais</p></Nav.Link>
@@ -104,21 +104,21 @@ function NavMenu() {
                 <Nav.Link onClick={() => {navigate('/StartBuild')}}>Start New Build</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/Builds">Browse finished Builds</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/Builds')}}>Browse finished Builds</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <NavDropdown title="Browse Components" href="/Parts" id="collasible-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-                  <NavDropdown.Item href="/CpuParts">CPU</NavDropdown.Item>
-                  <NavDropdown.Item href="/CpuCoolerParts">CPU Cooler</NavDropdown.Item>
-                  <NavDropdown.Item href="/MotherboardParts">Motherboard</NavDropdown.Item>
-                  <NavDropdown.Item href="/MemoryParts">Memory</NavDropdown.Item>
-                  <NavDropdown.Item href="/StorageParts">Storage</NavDropdown.Item>
-                  <NavDropdown.Item href="/VideoCardParts">Video Card</NavDropdown.Item>
-                  <NavDropdown.Item href="/PowerSupplyParts">Power Supply</NavDropdown.Item>
-                  <NavDropdown.Item href="/CompCaseParts">Case</NavDropdown.Item>
-                  <NavDropdown.Item href="/MonitorParts">Monitor</NavDropdown.Item>
-                  <NavDropdown.Item href="/MouseParts">Mouse</NavDropdown.Item>
-                  <NavDropdown.Item href="/KeyboardParts">Keyboard</NavDropdown.Item>
+                <NavDropdown title="Browse Components" id="collasible-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
+                  <NavDropdown.Item onClick={() => {navigate('/CpuParts')}}> CPU</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/CpuCoolerParts')}} >CPU Cooler</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MotherboardParts')}}>Motherboard</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MemoryParts')}}>Memory</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/StorageParts')}}>Storage</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/VideoCardParts')}}>Video Card</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/PowerSupplyParts')}}>Power Supply</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/CompCaseParts')}}>Case</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MonitorParts')}}>Monitor</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/MouseParts')}}>Mouse</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => {navigate('/KeyboardParts')}}>Keyboard</NavDropdown.Item>
                 </NavDropdown>
               </Nav.Item>
             </Nav>
@@ -137,19 +137,19 @@ function NavMenu() {
             </Nav>
             <Nav>
               <Nav.Item>
-                <Nav.Link href="/Community">Community</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/Community')}}>Community</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/ContactUs">Contact Us</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/ContactUs')}}>Contact Us</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/AboutUs">About Us</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/AboutUs')}}>About Us</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/Login">Sign in/up</Nav.Link>
+                <Nav.Link onClick={() => {navigate('/Login')}}>Sign in/up</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link><p onClick={changeLang}>English/Francais</p></Nav.Link>
+                <Nav.Link onClick={changeLang}>English/Francais</Nav.Link>
               </Nav.Item>
             </Nav>
             

@@ -27,7 +27,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 1</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 1</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -41,7 +41,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 2</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 2</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -55,7 +55,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 3</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 3</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -69,7 +69,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 4</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 4</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -85,7 +85,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 5</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 5</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -99,7 +99,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 6</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 6</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -113,7 +113,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 7</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 7</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -127,7 +127,7 @@ function MotherboardParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleMotherBoard">Motherboard 8</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleMotherBoard')}}>Motherboard 8</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/mobo.jpg')}  className='photo' />
                             <Card.Text>
                                 description

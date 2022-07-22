@@ -1,7 +1,9 @@
 import React from 'react'
 import { Container , Footer, Col, Button, Card, } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 function FooterPg() {
+  const navigate = useNavigate()
   return (
     <div>
         {/* <Footer className="pt-4 my-md-5 pt-md-5 border-top">
@@ -65,22 +67,22 @@ function FooterPg() {
             <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='StartBuild' className='text-reset'>
+                <a onClick={() => {navigate('/StartBuild')}} className='text-reset'>
                   Start Build
                 </a>
               </p>
               <p>
-                <a href='Builds' className='text-reset'>
+                <a onClick={() => {navigate('/Builds')}} className='text-reset'>
                 Browse Build
                 </a>
               </p>
               <p>
-                <a href='Community' className='text-reset'>
+                <a onClick={() => {navigate('/Community')}} className='text-reset'>
                   Community
                 </a>
               </p>
               <p>
-                <a href='AboutUs' className='text-reset'>
+                <a onClick={() => {navigate('/AboutUs')}} className='text-reset'>
                   About Us
                 </a>
               </p>
@@ -104,10 +106,6 @@ function FooterPg() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        {/* © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a> */}
       </div>
     </div>
     

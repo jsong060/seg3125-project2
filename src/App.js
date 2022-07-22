@@ -80,8 +80,9 @@ function App() {
 
 
         </Routes>
+        <FooterPg />
       </Router>
-      <FooterPg />
+      
     </div>
   );
 }

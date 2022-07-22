@@ -1,8 +1,10 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
 
 function ExampleMotherBoard() {
-  return (
+    const navigate = useNavigate(); 
+    return (
     <div>
         <Row>
             <div className='col-4'>
@@ -25,7 +27,7 @@ function ExampleMotherBoard() {
             </div>
             <div className="col-4">
                 <p className="mt-4 fw-bold"> User comments </p>
-                <p className="mx-4"><a href='/ExampleUser'>blueCandy</a>: very nice motherboard, has wifi functionality</p>
+                <p className="mx-4"><a className='linkcss' onClick={()  => {navigate('/ExampleUser')}}>blueCandy</a>: very nice motherboard, has wifi functionality</p>
             </div>
         </Row>
     </div>

@@ -28,7 +28,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 1</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 1</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -42,7 +42,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 2</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 2</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -56,7 +56,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 3</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 3</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -70,7 +70,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 4</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 4</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -86,7 +86,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 5</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 5</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -100,7 +100,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 6</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 6</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -114,7 +114,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 7</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 7</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -128,7 +128,7 @@ function CpuParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href="/ExampleCpu">CPU 8</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>CPU 8</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cpu.jpg')}  className='photo' />
                             <Card.Text>
                                 description

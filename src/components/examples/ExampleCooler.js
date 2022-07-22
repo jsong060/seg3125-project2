@@ -1,7 +1,10 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
+
 
 function ExampleCooler() {
+    const navigate = useNavigate(); 
   return (
     <div>
         <Row>
@@ -25,7 +28,7 @@ function ExampleCooler() {
             </div>
             <div className="col-4">
                 <p className="mt-4 fw-bold"> User comments </p>
-                <p className="mx-4"><a href='/ExampleUser'>blueCandy</a>: average cooler, gets the job done</p>
+                <p className="mx-4"><a className='linkcss' onClick={()  => {navigate('/ExampleUser')}}>blueCandy</a>: average cooler, gets the job done</p>
             </div>
         </Row>
     </div>

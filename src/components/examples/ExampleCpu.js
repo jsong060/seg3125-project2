@@ -1,8 +1,10 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
 
 function ExampleCpu() {
-  return (
+    const navigate = useNavigate(); 
+    return (
     <div>
         <Row>
             <div className='col-4'>
@@ -25,7 +27,7 @@ function ExampleCpu() {
             </div>
             <div className="col-4">
                 <p className="mt-4 fw-bold"> User comments </p>
-                <p className="mx-4"><a href='/ExampleUser'>blueCandy</a>: very nice CPU, good for its price</p>
+                <p className="mx-4"><a className='linkcss' onClick={()  => {navigate('/ExampleUser')}}>blueCandy</a>: very nice CPU, good for its price</p>
             </div>
         </Row>
     </div>

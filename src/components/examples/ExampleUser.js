@@ -1,8 +1,10 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
 
 function ExampleUser() {
-  return (
+    const navigate = useNavigate(); 
+    return (
     <div>
         <Row>
             <div className='col-4'>
@@ -17,7 +19,7 @@ function ExampleUser() {
             </div>
             <div className="col-4 m-4">
                 <p className="fw-bold">Recent activities:</p>
-                <p className="mx-4"> User reviewed <a href='ExampleCpu'>Intel 11200X</a></p>
+                <p className="mx-4"> User reviewed <a className='linkcss' onClick={()  => {navigate('/ExampleCpu')}}>Intel 11200X</a></p>
             </div>
         </Row>
         

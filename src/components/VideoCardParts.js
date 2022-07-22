@@ -29,7 +29,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 1</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 1</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -45,7 +45,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 2</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 2</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -60,7 +60,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 3</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 3</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -75,7 +75,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 4</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 4</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -93,7 +93,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 5</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 5</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -109,7 +109,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 6</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 6</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -124,7 +124,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 7</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 7</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -139,7 +139,7 @@ function VideoCardParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleVideoCard'>Videocard 8</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleVideoCard')}}>Videocard 8</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/gpu.jpg')}  className='photo' />
                                 <Card.Text>
                                     description

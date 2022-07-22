@@ -1,7 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import { Button, Row } from 'react-bootstrap'
 
 function ExampleCase() {
+
+    const navigate = useNavigate(); 
   return (
     <div>
         <Row>
@@ -25,7 +28,7 @@ function ExampleCase() {
             </div>
             <div className="col-4">
                 <p className="mt-4 fw-bold"> User comments </p>
-                <p className="mx-4"><a href='/ExampleUser'>blueCandy</a>: sleek looking case, I like the look</p>
+                <p className="mx-4"><a className='linkcss' onClick={()  => {navigate('/ExampleUser')}}>blueCandy</a>: sleek looking case, I like the look</p>
             </div>
         </Row>
     </div>

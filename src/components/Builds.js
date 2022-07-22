@@ -205,11 +205,11 @@ function Builds() {
                         <div class="card mb-3">
                             <div class="row">
                             <div class="col-4">
-                                <img src={require('./examples/pcbuild2.png')} class="img-fluid rounded-start" alt="..."/>
+                                <img src={require('./examples/pcbuild2.png')} class="img-fluid rounded-start" alt="..." onClick={() => {navigate('/ExampleBuild')}} />
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="/ExampleBuild"  class="text-dark">Entry level build</a></h5>
+                                <h5 class="card-title"><a onClick={() => {navigate('/ExampleBuild')}}  class="linkcss">Entry level build</a></h5>
                                 <p class="card-text">Brief description about the build</p>
                                 <p class="card-trainer-gender fw-light">Price: $1500</p>
                                 <p class="card-trainer-location fw-light">Size: ATX Mid Tower</p>
@@ -223,11 +223,11 @@ function Builds() {
                         <div class="card mb-3">
                             <div class="row">
                             <div class="col-4">
-                            <img src={require('./examples/pcbuild3.png')} class="img-fluid rounded-start" alt="..."/>
+                            <img src={require('./examples/pcbuild3.png')} class="img-fluid rounded-start" alt="..." onClick={() => {navigate('/ExampleBuild')}} />
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="/ExampleBuild"  class="text-dark">Enthusiast Build</a></h5>
+                                <h5 class="card-title"><a onClick={() => {navigate('/ExampleBuild')}}   className="linkcss">Enthusiast Build</a></h5>
                                 <p class="card-text">Brief description about the build</p>
                                 <p class="card-trainer-gender fw-light">Price: $2300</p>
                                 <p class="card-trainer-location fw-light">Size: ATX Full Tower</p>
@@ -241,11 +241,11 @@ function Builds() {
                         <div class="card mb-3">
                             <div class="row">
                             <div class="col-4">
-                            <img src={require('./examples/examplebuild.jpg')} class="img-fluid rounded-start" alt="..."/>
+                            <img src={require('./examples/examplebuild.jpg')} class="img-fluid rounded-start" alt="..." onClick={() => {navigate('/ExampleBuild')}} />
                             </div>
                             <div class="col-8">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="/trainerExample.html"  class="text-dark">Everything topped off Build</a></h5>
+                                <h5 class="card-title"><a onClick={() => {navigate('/ExampleBuild')}}   class="linkcss">Everything topped off Build</a></h5>
                                 <p class="card-text">Brief description about the build</p>
                                 <p class="card-trainer-gender fw-light">Price: $5000</p>
                                 <p class="card-trainer-location fw-light">Size: ATX Desktop</p>

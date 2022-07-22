@@ -27,7 +27,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 1</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 1</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -42,7 +42,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 2</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 2</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -57,7 +57,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 3</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 3</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -72,7 +72,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 4</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 4</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -89,7 +89,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 5</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 5</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -104,7 +104,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 6</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 6</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -119,7 +119,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 7</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 7</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description
@@ -134,7 +134,7 @@ function StorageParts(){
                     <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
-                                <Card.Title><a href='ExampleStorage'>Storage 8</a></Card.Title>
+                                <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleStorage')}}>Storage 8</a></Card.Title>
                                 <Card.Img variant="top" src={require('./examples/storage.jpg')}  className='photo' />
                                 <Card.Text>
                                     description

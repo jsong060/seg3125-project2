@@ -27,7 +27,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 1</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 1</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -41,7 +41,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 2</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 2</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -55,7 +55,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 3</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 3</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -69,7 +69,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 4</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 4</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -85,7 +85,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 5</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 5</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -99,7 +99,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 6</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 6</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -113,7 +113,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 7</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 7</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -127,7 +127,7 @@ function CpuCoolerParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='/ExampleCooler'>CpuCooler 8</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExampleCooler')}}>CpuCooler 8</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/cooler.jpg')}  className='photo' />
                             <Card.Text>
                                 description

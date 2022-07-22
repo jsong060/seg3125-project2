@@ -1,7 +1,9 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom';
 
 function ExamplePSU() {
+    const navigate = useNavigate(); 
   return (
     <div>
         <Row>
@@ -25,7 +27,7 @@ function ExamplePSU() {
             </div>
             <div className="col-4">
                 <p className="mt-4 fw-bold"> User comments </p>
-                <p className="mx-4"><a href='/ExampleUser'>blueCandy</a>: nice power supply, enough to handle my system</p>
+                <p className="mx-4"><a className='linkcss' onClick={()  => {navigate('/ExampleUser')}}>blueCandy</a>: nice power supply, enough to handle my system</p>
             </div>
         </Row>
     </div>

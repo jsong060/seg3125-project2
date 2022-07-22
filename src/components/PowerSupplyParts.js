@@ -27,7 +27,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 1</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 1</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -42,7 +42,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 2</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 2</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -57,7 +57,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 3</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 3</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -72,7 +72,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 4</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 4</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -89,7 +89,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 5</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 5</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -104,7 +104,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 6</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 6</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -119,7 +119,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 7</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 7</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
@@ -134,7 +134,7 @@ function PowerSupplyParts(){
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title><a href='ExamplePSU'>PowerSupply 8</a></Card.Title>
+                            <Card.Title><a className='linkcss' onClick={()  => {navigate('/ExamplePSU')}}>PowerSupply 8</a></Card.Title>
                             <Card.Img variant="top" src={require('./examples/psu.jpg')}  className='photo' />
                             <Card.Text>
                                 description
