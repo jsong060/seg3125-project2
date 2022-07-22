@@ -14,11 +14,6 @@ function NavMenu() {
       setShow(false);
   }
 
-  function addToBuild(type, value) {
-    localStorage.setItem(type, value);
-    navigate('/StartBuild')
-  }
-
   const changeLang = () => {
     if(lang =="English" || ''){
       localStorage.setItem('lang', 'French');
